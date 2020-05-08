@@ -4,10 +4,10 @@ import com.dubbo.demo.api.UserInfoService;
 import com.dubbo.demo.pojo.UserInfoDTO;
 import com.dubbo.demo.pojo.UserInfoVO;
 
+import org.apache.dubbo.config.annotation.Service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 
 @Service
 @Component
